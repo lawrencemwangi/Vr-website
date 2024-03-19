@@ -1,0 +1,17 @@
+.content_container{
+    @include grid(2);
+    gap:2em;
+    padding:0.5em 0;
+    height: 25vh;
+
+   .content_item1,.content_item2{
+    box-shadow: 3px 3px 4px $secondary-color;
+    border-radius: 8px;
+    padding: 0.9em;
+
+    span{
+        color:#22a4d3;
+        font-size: 1.3em;
+    }
+   }
+}

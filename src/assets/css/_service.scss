@@ -1,0 +1,26 @@
+.service_container{
+    padding:0.9em 0;
+    @include grid(4);
+    gap:2em;
+
+    .service_items{
+        box-shadow: 3px 3px 4px $secondary-color;
+        padding:0.5em 0.9em;
+        border-radius: 20px;
+
+        .image{
+            @include flex_center;
+            align-items: center;
+            img{
+                width: 80%;
+                height: 200px;
+                border-radius: 16px;
+            }
+        }
+       span{ 
+        font-size: 1em;
+        font-weight: bold;
+       }
+    }
+    
+}

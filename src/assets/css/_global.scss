@@ -1,0 +1,37 @@
+$primary-color:#FFFAFF;
+$secondary-color:#010001;
+$accent-color:#30BCED;
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: $primary-color;
+    color:$secondary-color;
+}
+
+.main_container{
+    padding:3em 3% ;
+    margin:0 0 3em;
+}
+
+.btn{
+    button{
+        padding: 0.5em 0.9em;
+        border: none;
+        border-radius: 8px;
+        background: $secondary-color;
+
+        a{
+            text-decoration: none;
+            color: $primary-color;
+            font-size: 1.2em;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.main_container{
+    .about_container{
+        @include grid(2);
+        padding:0.5em 0;
+        margin: 0 0 3em;
+        // *{border:1px solid green}
+    
+        .image{
+            @include flex_center;
+            align-items: center;
+    
+            img{
+                width:75%;
+                height:45vh;
+                border-radius: 0 32px 0 32px;
+             }
+        }
+        p{
+            font-size: 1em;
+        }
+    }
+    .owner{
+        padding:0.9em;
+        .owner_image{
+            @include flex_center;
+            align-items: center;
+            
+            img{
+                width:250px;
+                height: 55vh;
+                border-radius: 24px;
+            }
+            p,span{
+                font-size: 1.2em;
+                font-weight: 550;
+            }
+        }
+    }
+}
